@@ -1,0 +1,61 @@
+header{
+    background-image: url(../styles/book1.jpg);
+    height: 500px;
+    position: relative;
+    z-index: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    background-color: transparent;
+}
+.navbar a:hover{
+    background-color: rgb(124, 194, 216);
+    color: whitesmoke;
+
+}
+.navbar-brand{
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: 600;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-nav .nav-link{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 400;    
+}
+.header-title{
+  
+    &__h1{
+        color: white;
+        font-size: 90px;
+    }
+    &__p{
+        color: white;
+        font-size: 40px;
+    }
+}
+.blog{
+    &__blog-item{
+        border-bottom: 2px solid darkgray;
+    }
+
+    &__h2{
+        color: black;
+        font-size: rem(50);
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    &__p{
+        color: gray;
+        font-size: rem(30);
+        text-align: justify;
+        
+    }
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
